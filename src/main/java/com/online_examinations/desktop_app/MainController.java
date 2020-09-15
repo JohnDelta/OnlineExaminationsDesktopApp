@@ -9,18 +9,18 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class LoginController implements Initializable {
+public class MainController implements Initializable {
 	
-	public void onLoginButtonClick(ActionEvent event) throws Exception {
+	public void onMainButtonClick(ActionEvent event) throws Exception {
 		System.out.println("hello world");
 
 		Stage stageTheEventSourceNodeBelongs = (Stage)((Node)event.getSource()).getScene().getWindow();
-		Scene scene = new App().getMainScene();
+		Scene scene = new App().getLoginScene();
 		stageTheEventSourceNodeBelongs.setScene(scene);
 		stageTheEventSourceNodeBelongs.show();
 	}
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) { }
-
+	
 }
