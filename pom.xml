@@ -47,6 +47,12 @@
 	    <artifactId>json</artifactId>
 	    <version>20200518</version>
 	</dependency>
+	
+	<dependency>
+	   <groupId>org.openjfx</groupId>
+	   <artifactId>javafx-controls</artifactId>
+	   <version>14</version>
+	</dependency>
     
   </dependencies>
 
